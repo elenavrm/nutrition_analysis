@@ -49,8 +49,8 @@ Enter the name of the food item you want to analyze in the search bar.
 
 ## Technologies Used
 
-*React
-*JavaScript
-*HTML5
-*CSS3
-*Nutrition API (e.g., Edamam Nutrition API)
+* *React*
+* *JavaScript**
+* *HTML5*
+* *CSS3*
+* *Nutrition API (e.g., Edamam Nutrition API)*
