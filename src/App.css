@@ -1,0 +1,166 @@
+body {
+  background-image: url('food3.jpg'); 
+  background-color: #9fc583;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.79);
+  
+}
+
+.box {
+  background: rgba(186, 233, 173, 0.79);
+  width: 397px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.box2 {
+  background: rgba(186, 233, 173, 0.79);
+}
+
+.search {
+  padding: 10px 10px;
+  box-shadow: inset 0px 0px 0px 2px #008001;
+}
+
+input {
+  color:black;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+button {
+  padding: 15px;
+  background-color: #c6e9b7;
+  box-shadow: inset 0px 0px 0px 2px #008001;
+  border: none;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  color: 	#0B6623;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  color: 	#0B6623;
+}
+tbody {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+th {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  color: 	#0B6623;
+}
+
+/*PRELOADER*/
+
+.preloader {
+  /*fixed postion*/
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  z-index: 1001;
+}
+
+.preloader__row {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: -35px;
+  margin-left: -35px;
+  text-align: center;
+  animation: preloader-rotate 2s infinite linear;
+}
+
+.preloader__item {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  background-color: #006501;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  animation: preloader-bounce 2s infinite ease-in-out;
+}
+
+.preloader__item:last-child {
+  top: auto;
+  bottom: 0;
+  animation-delay: -1s;
+}
+
+@keyframes preloader-rotate {
+  100% {
+  transform: rotate(360deg);
+  }
+}
+
+@keyframes preloader-bounce {
+  0%,
+  100% {
+  transform: scale(0);
+  }
+
+  50% {
+  transform: scale(1);
+  }
+}
+
+.loaded_hiding .preloader {
+  transition: 0.3s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
+}
+
+/*RESPONSIVE*/
+
+@media all and (max-width: 576px) {
+  body {
+    background-image: url('phone.png');
+  }
+
+  .box {
+    width: 250px; 
+    margin: 10px; 
+    padding: 20px; 
+  }
+
+  h1{
+    font-size: 15px;
+  }
+
+}
+
+@media all and (max-width: 950px){
+  body {
+    background-image: url('ipad.png');
+  }
+}
+
+
+
