@@ -18,27 +18,9 @@ The Nutrition Analysis Web App is a user-friendly and visually appealing tool bu
 
 ## Demo
 
-[Live Demo](https://melodic-lily-62eaea.netlify.app/)
+[Live Demo of Nutrition Analysis Web App](https://melodic-lily-62eaea.netlify.app/)
 
 
-Certainly! Below is a sample README file for your nutrition analysis web app built on React using a nutrition API. Please customize it as needed:
-
-markdown
-Copy code
-# Nutrition Analysis Web App
-
-![App Screenshot](screenshot.png)
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Demo](#demo)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -54,9 +36,6 @@ The Nutrition Analysis Web App is a user-friendly and visually appealing tool bu
 
 - **Quick Search**: Users can quickly search for food items and receive instant nutrition analysis.
 
-## Demo
-
-[Live Demo](https://your-demo-link.com)
 
 
 ## Usage
@@ -69,8 +48,9 @@ Enter the name of the food item you want to analyze in the search bar.
 * Explore the nutritional content and make informed dietary choices.
 
 ## Technologies Used
-**React
-**JavaScript
-**HTML5
-**CSS3
-**Nutrition API (e.g., Edamam Nutrition API)
+
+*React
+*JavaScript
+*HTML5
+*CSS3
+*Nutrition API (e.g., Edamam Nutrition API)
